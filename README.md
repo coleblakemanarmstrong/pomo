@@ -10,13 +10,13 @@ This project is a clean, no-nonsense Pomodoro timer built completely from scratc
 
 * Open your local pomo folder.
 * Double-click the index.html file to instantly launch the timer in your default browser.
-* Alternatively, visit the live production link hosted on Vercel: [pomo-beige.vercel.app](https://vercel.app)
+* Alternatively, visit the live production link hosted on Vercel: [pomo-beige.vercel.app](https://pomo-beige.vercel.app/)
 
 ## Authors
 
 Cole Blakeman-Armstrong
 
-LinkedIn: [@coleblakemanarmstrong](https://linkedin.com)
+LinkedIn: [@coleblakemanarmstrong](https://www.linkedin.com/in/colebarmstrong/)
 
 ## Version History
 
