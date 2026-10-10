@@ -4,7 +4,7 @@ Pomo is a premium, dark-mode web application designed to help anyone lock into d
 
 ## Description
 
-This project is a clean, no-nonsense Pomodoro timer built completely from scratch using raw HTML, CSS, and vanilla JavaScript. It features an premium interface, smooth hover animations. I built this 100% manually without using any AI code generators to completely master frontend fundamentals, DOM manipulation, and CSS keyframe animations by hand.
+This project is a clean, no-nonsense Pomodoro timer built completely from scratch using raw HTML, CSS, and vanilla JavaScript. It features a premium interface, and smooth hover animations. I built this 100% manually without using any AI code generators to completely master frontend fundamentals, DOM manipulation, and CSS animations by hand.
 
 ## Executing program
 
@@ -19,6 +19,9 @@ Cole Blakeman-Armstrong
 LinkedIn: [@coleblakemanarmstrong](https://www.linkedin.com/in/colebarmstrong/)
 
 ## Version History
+
+* 0.2
+    * Added basic HTML and CSS. (Functionality has not been implemented yet)
 
 * 0.1
     * Initial Release
