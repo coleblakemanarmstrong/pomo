@@ -1,14 +1,14 @@
-const startTime = 0.05; // Default time in minutes
-let time = startTime * 60;
+let studyTime = 25;
+let shortTime = 5;
+let longTime = 15;
+
+let time = studyTime * 60;
 
 const alarm = new Audio('resources/audio/alarm.mp3');
 
 const timerEl = document.getElementById("timer")
 const playIcon = document.getElementById('playIcon');
 
-let studyTime = 25;
-let shortTime = 5;
-let longTime = 15;
 
 let intervalId = null;
 
