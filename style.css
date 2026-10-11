@@ -70,6 +70,10 @@ header img {
     gap: 12px;
 }
 
+.timeOptions {
+    margin-bottom: 22px;
+}
+
 #timer {
     display: flex;
     justify-content: center;
