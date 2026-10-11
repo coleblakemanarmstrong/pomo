@@ -1,15 +1,15 @@
-const startTime = 25; // Default time in minutes
-let time = startTime * 60
+const startTime = 0.05; // Default time in minutes
+let time = startTime * 60;
 
 const alarm = new Audio('resources/audio/alarm.mp3');
 
 const timerEl = document.getElementById("timer")
+const playIcon = document.getElementById('playIcon');
 
 let studyTime = 25;
 let shortTime = 5;
-let longTime = 10;
+let longTime = 15;
 
-let isOn = false;
 let intervalId = null;
 
 updateTimeEl();
@@ -31,12 +31,14 @@ function playPause() {
         clearActiveInterval();
     } else {
         intervalId = setInterval(updateTimer, 1000);
+        playIcon.classList.remove('fa-play');
+        playIcon.classList.add('fa-pause');
     }
 }
 
 function updateTimer() {
     if (time <= 0) {
-        alarm.play()
+        alarm.play();
         clearActiveInterval();
         return;
     }
@@ -54,4 +56,6 @@ function updateTimeEl() {
 function clearActiveInterval() {
     clearInterval(intervalId);
     intervalId = null;
+    playIcon.classList.remove('fa-pause');
+    playIcon.classList.add('fa-play');
 }
