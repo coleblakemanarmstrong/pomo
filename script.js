@@ -2,7 +2,7 @@ let studyTime = 25;
 let shortTime = 5;
 let longTime = 15;
 
-let time = studyTime * 60;
+let time = 0.05 * 60;
 
 const alarm = new Audio('resources/audio/alarm.mp3');
 
@@ -37,13 +37,13 @@ function playPause() {
 }
 
 function updateTimer() {
-    if (time <= 0) {
+    time--;
+    updateTimeEl();
+     if (time <= 0) {
         alarm.play();
         clearActiveInterval();
         return;
     }
-    time--;
-    updateTimeEl();
 }
 
 function updateTimeEl() {

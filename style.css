@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-height: 100dvh;
     margin: 0;
 }
 
@@ -61,6 +62,15 @@ header {
 header img {
     height: 1em;
     width: auto;
+}
+
+
+@media (max-width: 480px) {
+  .timeOptions button,
+  .segment {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
 }
 
 .controls {
